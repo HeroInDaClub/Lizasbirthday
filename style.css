@@ -7,7 +7,6 @@
 }
 a{
     text-decoration: none;
-    background-color: white;
 }
 h1{
     color: rgb(21, 73, 21);
@@ -15,7 +14,8 @@ h1{
     margin-bottom:  5%;
 }
 .section{
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     display: flex;
     flex-direction: column;
     gap: 0px;
@@ -42,6 +42,11 @@ h1{
 }
 @media screen and (max-width:800px){
     .section img{
-    width: 70%;
+    width: 80%;
+}
+}
+@media screen and (max-width:500px){
+    .section img{
+    width: 100%;
 }
 }
